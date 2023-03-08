@@ -1,6 +1,6 @@
 {
   "name": "tca-initiative",
-  "homepage": "https://2023-spring-adv-fe-tuth.github.io/tca-initiative/"
+  "homepage": "https://2023-spring-adv-fe-tuth.github.io/tca-initiative/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
