@@ -23,8 +23,11 @@ class App extends Component {
              <Route path="/Players" component={Players}/>
             <Route component={Error}/>
            </Routes>
+           <image>./d20.png</image>
         </div> 
       </BrowserRouter>
+
+
     );
   }
 }
