@@ -1,27 +1,32 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
+
+import logo from './d20.png';
 import './App.css';
+import Home from './components/Home';
+import Conditions from './components/Conditions';
+import Initiative from './components/Initiative';
+import Players from './components/Players';
+import Error from './components/Error';
+import Navigation from './components/Navigation';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-
-        <h1 className="text-3xl font-bold underline">this is a tailwind css test</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (      
+       <BrowserRouter>
+        <div>
+          <Navigation />
+            <Routes>
+             <Route path="/" component={Home} exact/>
+             <Route path="/Conditions" component={Conditions}/>
+             <Route path="/Initiative" component={Initiative}/>
+             <Route path="/Players" component={Players}/>
+            <Route component={Error}/>
+           </Routes>
+        </div> 
+      </BrowserRouter>
+    );
+  }
 }
 
 export default App;
