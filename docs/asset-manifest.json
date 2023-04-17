@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tca-initiative/static/css/main.92d845da.css",
+    "main.js": "/tca-initiative/static/js/main.eee76433.js",
+    "static/js/787.a4028e10.chunk.js": "/tca-initiative/static/js/787.a4028e10.chunk.js",
+    "static/media/d20.png": "/tca-initiative/static/media/d20.db15fca680ab23bdd71c.png",
+    "index.html": "/tca-initiative/index.html",
+    "main.92d845da.css.map": "/tca-initiative/static/css/main.92d845da.css.map",
+    "main.eee76433.js.map": "/tca-initiative/static/js/main.eee76433.js.map",
+    "787.a4028e10.chunk.js.map": "/tca-initiative/static/js/787.a4028e10.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92d845da.css",
+    "static/js/main.eee76433.js"
+  ]
+}
